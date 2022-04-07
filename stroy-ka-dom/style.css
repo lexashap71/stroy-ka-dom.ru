@@ -1,0 +1,20 @@
+:root {
+    --main-bg-color: rgb(238, 216, 161);
+    --main-color: rgb(122, 78, 7);
+    font-size: 2rem;
+}
+body, main {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+h1 {
+    font-size: 2rem;
+}
